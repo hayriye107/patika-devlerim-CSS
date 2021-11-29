@@ -1,0 +1,157 @@
+body {
+    margin: 0px auto;
+    padding: 0px auto;
+    box-sizing: border-box;
+  }
+/* Global Css */
+  a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  .text-center{
+    text-align: center;
+  }
+ 
+  /* NAVBAR */
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  nav a{
+    color:#5f6368;
+    margin: 1rem;
+    text-transform: capitalize;
+  }
+  nav a:hover{
+    text-decoration: underline;
+  }
+  nav .yuvarlak {
+    margin: 1rem;
+    width: 50px;
+    height: 50px;
+    border-color: aliceblue;   
+  
+    border-radius: 40px;
+    background-color: green; 
+  }
+
+  nav .yuvarlak a{
+    font-size: 1.95rem;
+    color: ivory;
+    text-transform:lowercase;
+  }
+
+  /* Section */
+  section {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    height: 350px;
+  }
+  section img {
+    width: 15rem;
+  }
+  
+  section .aramaKutusu{
+  width: 25rem;
+	height: 0.10rem;
+	background-color:white;
+  border:1px solid darkgrey;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+  margin: 1rem;
+  }
+  section .aramaKutusu:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+  }
+
+  section .aramaKutusu input{
+  flex: 1;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+  padding-left: 10px;
+  }
+  section .aramaKutusu div {
+    padding: 0 8px;
+  }
+  section .button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+    width: auto;
+    height: 2rem;
+   
+    
+  }
+  section .button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+  /* Footer */
+  footer {
+   background-color: #f2f2f2;
+  
+  }
+  footer p {
+  padding: 0.5rem;
+    font-size:15px;
+    color: #70757a;
+  }
+  footer div{
+   display: flex;
+   flex: 1;
+   margin: 0.25rem;
+  padding:0 1rem; 
+  text-transform: capitalize;
+
+  }
+  footer div a{
+    color: #70757a;
+  }
+  footer div a:hover{
+    text-decoration: underline;
+  }
+    footer .div1{
+    display:inline-block;
+    justify-content: flex-start;
+    padding:0 15px;
+        
+  }
+   footer .div2{
+    width: 100%;
+    display:inline-block;
+    padding:0 15px;
+    justify-content: center;
+  }
+  footer .div2 img{
+        width: 15px;
+        height: 15px;
+  }
+ 
+  footer .div3{
+    display: inline-block;
+    justify-content: flex-end;
+    position: relative;
+  
+    padding: 0 15px;
+  
+  } 
+
+
+ 
